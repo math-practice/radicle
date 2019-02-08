@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "FoundersGrotesk";
+  src: url("fonts/FoundersGroteskTextWeb-Regular.eot?") format("eot"), 
+       url("fonts/FoundersGroteskTextWeb-Regular.woff2") format("woff2"), 
+       url("fonts/FoundersGroteskTextWeb-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "FoundersGroteskMono";
+  src: url("fonts/FoundersGroteskMonoWeb-Regular.eot?") format("eot"), 
+       url("fonts/FoundersGroteskMonoWeb-Regular.woff2") format("woff2"), 
+       url("fonts/FoundersGroteskMonoWeb-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "VulfMono";
+  src: url("fonts/Vulf_Mono-Light_Italic_web.ttf") format("eot"), 
+  url("fonts/Vulf_Mono-Light_Italic_web.woff2") format("woff2"), 
+  url("fonts/Vulf_Mono-Light_Italic_web.woff") format("woff"); }
+
+@font-face {
+  font-family: "FutureMono";
+  font-weight: bold;
+  src: url("fonts/TheFutureMono01-Regular.otf"); }
+
+body {
+  font-family: "FoundersGrotesk";
+  font-size:18px;
+  line-height: 22px;
+  background: #efefef;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-family: "VulfMono";
+  font-size:28px;
+  line-height: 38px;  
+}
+h2 {
+  font-family: "FutureMono";
+  font-size:28px;
+  line-height: 33px;  
+}
+p {
+  margin: 1em 0;
+}
+a {
+  color: #ff5555;
+  text-decoration: none;
+}
+code {
+  font-family: "FoundersGroteskMono";
+  font-size:14px;
+}
+header {
+  background: #fff;
+  width: 1440px;
+  margin:100px auto 0 auto;
+  border-bottom: 1px solid;
+}
+section {
+  background: #fff;
+  width: 1440px;
+  margin: 0px auto;
+}
+header::after, section::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.left-header {
+  width: 50%;
+  height: 405px;
+  float:left;
+  text-align: center;
+}
+.right-header {
+  width: 50%;
+  height: 405px;
+  float:left;
+  background: #000;
+  background-image: url(metaballs.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+  margin-top:140px;
+}
+.title h1 {
+  margin:1em 120px;
+}
+.collab div {
+  float:left;
+  width:380px;
+  margin:40px;
+}
+.nav-bar {
+  position:absolute;
+  width:720px;
+  font-size:15px;
+}
+.try-logo{
+  margin:15px;
+}
+nav {
+  float:right;
+  margin:15px 20px;
+}
+li {
+  display: inline-block;
+  margin-left:0.7em;
+}
+button {
+    font-family: FoundersGrotesk, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #5555ff;
+    color: #ffffff;
+    padding: 2px 8px 7px 8px;
+    border-radius: 2px;
+    border:0;
+}
+code {
+  margin-left: 0.5em;
+  color:#5555ff;
+}
+.terminal {
+  background: #000;
+  padding:100px 0;
+}
+.terminal h1 {
+  font-size: 42px;
+  line-height: 52px;
+  color:#fff;
+  text-align: center;
+  font-weight: normal;
+}
+.terminal h2 {
+    color: #5555ff;
+    padding-top: 64px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+}
