@@ -173,6 +173,10 @@ code {
   margin-left: 0.5em;
   color:#5555ff;
 }
+.collab h2 {
+  width:380px;
+  background: #fff;
+}
 .terminal {
   background: #000;
   padding:100px 0;
@@ -190,4 +194,7 @@ code {
     padding-bottom: 24px;
     text-align: center;
 }
+.overlay {
+  position:absolute;
+  display:none;
 }

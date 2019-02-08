@@ -42,14 +42,39 @@
     </header>
     <section class="collab">
       <div>
-        <h2>Peer-to-peer</h2>
+      	<h2 class="overlay">Peer</h2>
+      	<h2 class="overlay">Peeer</h2>
+      	<h2 class="overlay">Peeeer</h2>
+      	<h2 class="overlay">Peeeeer</h2>
+      	<h2 class="overlay">Peeeeeer</h2>
+      	<h2 class="overlay">Peeeeeeer</h2>
+      	<h2 class="overlay">Peeeeeeeer</h2>
+      	<h2 class="overlay">Peeeeeeeeer</h2>
+      	<h2 class="overlay">Peeeeeeeeeer</h2>
+      	<h2 class="overlay">Peeeeeeeeeeer</h2>
+      	<h2 class="overlay">Peeeee—eeeer</h2>
+      	<h2 class="overlay">Peeee——eeeer</h2>
+      	<h2 class="overlay">Peee————eeer</h2>
+      	<h2 class="overlay">Peer————peer</h2>
+      	<h2 class="overlay">Peer—t——peer</h2>
+      	<h2 class="overlay">Peer–to–peer</h2>
+        <h2 id="t1">Peer–to–peer</h2>
         <p>
           Open source development is fundamentally P2P. The Radicle stack runs
           on IPFS to enable fully peer-to-peer conversations with code.
         </p>
       </div>
       <div>
-        <h2>Programmable</h2>
+      	<h2 class="overlay">–––––a––a–––</h2>
+      	<h2 class="overlay">–––––a––ab––</h2>
+      	<h2 class="overlay">–––––a––ab–e</h2>
+      	<h2 class="overlay">–––g–a––ab–e</h2>
+      	<h2 class="overlay">–––g–a––able</h2>
+      	<h2 class="overlay">–––g–ammable</h2>
+      	<h2 class="overlay">––og–ammable</h2>
+      	<h2 class="overlay">–rogrammable</h2>
+      	<h2 class="overlay">Programmable</h2>
+        <h2 id="t2">Programmable</h2>
         <p>
           The Radicle collaboration apps bring issue management and patch
           proposals into the terminal. Use git-inspired commands to coordinate
@@ -57,7 +82,24 @@
         </p>
       </div>
       <div>
-        <h2>Terminal-first</h2>
+      	<h2 class="overlay">></h2>
+      	<h2 class="overlay">> ▌</h2>
+      	<h2 class="overlay">> T</h2>
+      	<h2 class="overlay">> Te▌</h2>
+      	<h2 class="overlay">> Ter</h2>
+      	<h2 class="overlay">> Term▌</h2>
+      	<h2 class="overlay">> Termi</h2>
+      	<h2 class="overlay">> Termin▌</h2>
+      	<h2 class="overlay">> Termina</h2>
+      	<h2 class="overlay">> Terminal▌</h2>
+      	<h2 class="overlay">> Terminal–</h2>
+      	<h2 class="overlay">> Terminal–f▌</h2>
+      	<h2 class="overlay">> Terminal–fi</h2>
+      	<h2 class="overlay">> Terminal–fir▌</h2>
+      	<h2 class="overlay">> Terminal–firs</h2>
+      	<h2 class="overlay">> Terminal–first▌</h2>
+      	<h2 class="overlay">> Terminal–first</h2>
+        <h2 id="t3">Terminal-first</h2>
         <p>
           Apps are written in the radicle language, a Lisp dialect designed
           specifically for programming state machines for peer-to-peer
@@ -68,7 +110,23 @@
     </section>
     <section class="terminal">
     	<h1>Collaborate with<br>Radicle</h1>
-<br>   	<h2>Setup a project</h2>
+    	<h2>Setup a project</h2>
     </section>
 	</body>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script>
+		var elem = $('.overlay');
+		var t = 0;
+		setInterval(() => {
+		    elem.hide();
+		    elem.eq(t).show();
+		    t++;
+		    if(t > elem.length) {
+		    	t=0;
+		    };
+		}, 150);
+	</script>
 </html>
